@@ -1,0 +1,14 @@
+#
+# fips-efsw
+#
+---
+run:
+    efsw-test:
+        cwd: .
+
+exports:
+    header-dirs:
+        - efsw/include
+    modules:
+        efsw: .
+
